@@ -33,4 +33,37 @@ let stringNumber=String(someNumber);//String ->datatype conversion(it converts t
 console.log(typeof stringNumber);//Output-> string
 console.log(stringNumber);//Output-> 33
 
-//NOTES;
+//**************** Operations ***************
+
+let value=3;
+let negValue= -value;
+// console.log(negValue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)//two raise to the power 2
+// console.log(2/2)
+// console.log(2%2)//modolus:- remainder
+
+let str1="hello"
+let str2="behal"
+
+let str3= str1+str2;//this is how we can combine strings in js
+console.log(str3);
+
+
+// //conversions(not to be used)
+// console.log("1"+2)//output-12
+// console.log(1+"2")//output-12
+// console.log("1"+2+2)//output-122(entire thing is converted in string)
+// console.log(1+2+"2")//output-32(yaha 2+1 add hoge sath mee usne le liye string 2 orr bna diya 32)
+
+// tricky conversion(never use this)
+console.log(+true)//1
+console.log(+"")//0 ayega
+
+let gameCounter=100;
+gameCounter++;//101(postfix)
+++gameCounter;//101(prefix)
+console.log(gameCounter)
